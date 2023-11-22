@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Item 1</a></li>
+            <li>
+              <a>Parent</a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl text-primary">LearnUMKM</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="#" class="mr-10">Home</a></li>
+          <li><a href="#" class="mr-10">News</a></li>
+          <li><a href="#course" class="mr-10">Course</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a href="register.html" class="btn btn-active btn-primary mr-5">Daftar</a>
+        <a href="login.html" class="btn btn">Login</a>
+      </div>
+    </div>
+    <!-- navbar end -->
+    <!-- HERO -->
+    <div class="hero min-h-screen bg-base-200">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img src="img1.jpg" class="max-w-sm rounded-lg shadow-2xl" />
+        <div>
+          <h1 class="text-5xl font-bold">Mulai Bisnismu Sekarang!</h1>
+          <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+    </div>
+    <!-- HERO END -->
+    <!-- sponsor -->
+    <h1 class="text-center font-bold text-xl mt-4 mb-4">Didukung Oleh</h1>
+    <div class="flex gap-6 justify-center">
+      <div class="card w-72 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="logo telkom.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center"></div>
+      </div>
+
+      <div class="card w-72 bg-base-100 shadow-xl"> 
+        <figure class="px-10 pt-10">
+          <img src="logo2.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <div class="card-actions"></div>
+        </div>
+      </div>
+
+      <div class="card w-72 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="logo3.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center"></div>
+      </div>
+      <div class="card w-72 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="logo4.png" alt="umkm" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center"></div>
+      </div>
+    </div>
+    </div>
+    <!-- sponsor end -->
+
+    <!-- kelas -->
+    <h1 id="course" class="text-center font-bold text-xl mt-4 mb-4">Kelas yang tersedia</h1>
+      <div class="flex justify-center mt-5 mb-5 ">
+        <div class="card w-96 bg-base-100 shadow-xl image-full  mr-5 ml-5">
+          <figure><img src="online.jpg" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">GoModern</h2>
+            <p></p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card w-96 bg-base-100 shadow-xl image-full  mr-5 ml-5">
+          <figure><img src="kelass2.jpg" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">GoOnline</h2>
+            <p></p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card w-96 bg-base-100 shadow-xl image-full mr-5 ml-5">
+          <figure><img src="kelass3.avif" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Digitalisasi</h2>
+            <p></p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- kelas end -->
+
+    <!-- why choose? -->
+    <div class="flex justify-center mt-4 mb-4">
+        <div class="card lg:card-side bg-base-100 shadow-xl" style="margin-left: 10px; margin-right: 10px;">
+          <div class="flex items-center">
+            <div class="card-body">
+              <h2 class="card-title">Mengapa pilih LearnUMKM?</h2>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, veritatis.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, veritatis.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, sequi.</li>
+              </ul>
+              <div class="card-actions justify-end">
+              </div>
+            </div>
+            <figure class="ml-4">
+              <img src="oyemike-princewill-VI2X0b01p6g-unsplash.jpg" alt="Album" style="width: 300px; height: 200px;" />
+            </figure>
+          </div>
+        </div>
+      </div>
+      
+      
+    <!-- why choose end -->
+  </body>
+</html>
