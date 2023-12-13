@@ -1,12 +1,6 @@
-.box {
-  width: 882px;
-  height: 1586px;
-}
-
-.box .rectangle {
-  position: fixed;
-  width: 882px;
-  height: 1586px;
-  top: 0;
-  left: 0;
+.sidebar {
+  background-color: #3257c0;
+  width: 300px;
+  height: 1000px;
+  color: white;
 }

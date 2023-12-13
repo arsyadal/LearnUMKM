@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>edit</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li>
+              <a>Course</a>
+            </li>
+            <li><a>News</a></li>
+          </ul>
+        </div>
+        <a href="dashboard.html">
+          <img src="umkm logo.png" alt="LearnUMKM" class="btn btn-ghost text-xl text-primary h-10 w-200" />
+        </a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="#" class="mr-10">Home</a></li>
+          <li><a href="#" class="mr-10">Course</a></li>
+          <li><a href="#course" class="mr-10">News</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="flex-none gap-2">
+          <div class="flex items-center">
+            <div class="dropdown dropdown-end">
+              <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                <div class="w-10 rounded-full">
+                  <img alt="Tailwind CSS Navbar component" src="sincahn.jpg" />
+                </div>
+              </label>
+              <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                <li>
+                  <a class="justify-between"> Profile </a>
+                </li>
+                <li><a>Settings</a></li>
+                <li><a>Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar end -->
+    <!-- breadcrumbs -->
+    <div class="text-sm breadcrumbs ml-10">
+      <ul>
+        <li><a>Home</a></li>
+        <li><a>Documents</a></li>
+        <li>Add Document</li>
+      </ul>
+    </div>
+    <!-- breadcrumbs end -->
+
+    <div class="col-span-1 flex gap-4 ml-10" style="height: 50px">
+      <div class="col-span-1 flex gap-4 ml-10">
+        <p class="text-2xl font-bold">Edit profil</p>
+        <p class="text-2xl">Courses</p>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- card -->
+    <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+      <div class="h-32 rounded-lg bg-gray-200">
+        <div class="flex gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-certificate" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M15 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+            <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5" />
+            <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73" />
+            <path d="M6 9l12 0" />
+            <path d="M6 12l3 0" />
+            <path d="M6 15l2 0" />
+          </svg>
+          <h1 class="text-2xl font">Certification List</h1>
+        </div>
+
+        <div class="flex gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book-2" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12z" />
+            <path d="M19 16h-12a2 2 0 0 0 -2 2" />
+            <path d="M9 8h6" />
+          </svg>
+          <h1 class="text-2xl font">Course History</h1>
+        </div>
+
+        <div class="flex gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-article" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+            <path d="M7 8h10" />
+            <path d="M7 12h10" />
+            <path d="M7 16h10" />
+          </svg>
+          <h1 class="text-2xl font">Transaction History</h1>
+        </div>
+      </div>
+      <div class="h-full rounded-lg bg-gray-200 lg:col-span-2">
+        <div class="card w-3/4 bg-base-100 shadow-xl ml-24">
+          <div class="flex items-center">
+            <figure><img src="WF Image Placeholder (2).png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Lorem ipsum</h2>
+              <div class="badge badge-primary gap-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-file-filled"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005h5z"
+                    stroke-width="0"
+                    fill="currentColor"
+                  />
+                  <path d="M19 7h-4l-.001 -4.001z" stroke-width="0" fill="currentColor" />
+                </svg>
+                Modul
+              </div>
+
+              <div class="badge badge-primary gap-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-video-plus"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z" />
+                  <path d="M3 6m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+                  <path d="M7 12l4 0" />
+                  <path d="M9 10l0 4" />
+                </svg>
+                Video
+              </div>
+
+              <div class="badge badge-primary gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                  <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                </svg>
+                Peserta
+              </div>
+              <div class="flex items-center">
+                <!-- New container for progress and text -->
+                <progress class="progress progress-primary w-56" value="100" max="100"></progress>
+                <p class="ml-2">100%</p>
+                <!-- Adjust margin-left for space -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card end -->
+
+    <!-- end card -->
+  </body>
+</html>

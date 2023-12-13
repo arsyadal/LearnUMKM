@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>User</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li>
+              <a>Course</a>
+            </li>
+            <li><a>News</a></li>
+          </ul>
+        </div>
+        <a href="dashboard.html">
+          <img src="umkm logo.png" alt="LearnUMKM" class="btn btn-ghost text-xl text-primary h-10 w-200" />
+        </a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="#" class="mr-10">Home</a></li>
+          <li><a href="#" class="mr-10">Course</a></li>
+          <li><a href="#course" class="mr-10">News</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="flex-none gap-2">
+          <div class="flex items-center">
+            <div class="dropdown dropdown-end">
+              <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                <div class="w-10 rounded-full">
+                  <img alt="Tailwind CSS Navbar component" src="sincahn.jpg" />
+                </div>
+              </label>
+              <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                <li>
+                  <a class="justify-between"> Profile </a>
+                </li>
+                <li><a>Settings</a></li>
+                <li><a>Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- breadcrumbs -->
+    <div class="text-sm breadcrumbs ml-16">
+      <ul>
+        <li><a>Home</a></li>
+        <li><a>Documents</a></li>
+        <li>Add Document</li>
+      </ul>
+    </div>
+    <!-- end breadcrumbs -->
+
+    <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+      <div class="h-full rounded-lg bg-gray-200 lg:col-span-2">
+        <h1 class="font-bold text-3xl">Lorem ipsum</h1>
+        <h1 class="font-bold text-2xl">Lorem ipsum</h1>
+
+
+        <br>
+        <div class="card w-flex bg-base-100 shadow-xl mr-5 ml-5 mb-5">
+          <div class="card-body">
+            <img src="video course.png" alt="">
+            <div class="flex justify-between">
+
+
+                <button class="btn btn-outline btn-primary">Sebelum</button>
+                <button class="btn btn-primary">Selanjutnya</button>
+            </div>
+        </div>
+      </div>
+ 
+    </div>
+    <div class="h-full rounded-lg bg-base-200 mr-10">
+        <h1 class="font-bold text-3xl mb-2 ml-10">Lorem ipsum</h1>
+
+        <hr class="ml-10"style="width: 80%; height: 2px; border: none; background-color: black;">
+        <!-- step -->
+        <ul class="steps steps-vertical ml-10">
+            <li data-content="1"class="step step-primary">Presentation Materi - Modul 1 Course</li>
+            <li class="step ">Materi PDF - Modul 1 Course</li>
+            <li class="step">Video Modul 1 Course</li>
+            <li class="step">Post-Test Modul 1 Course</li>
+          </ul>
+
+
+  
+          <!-- step end b -->
+          <style>
+            .sidebar{
+                background-color: purple;
+            }
+          </style>
+      </div>
+  </body>
+</html>

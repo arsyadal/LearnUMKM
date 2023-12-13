@@ -79,10 +79,25 @@
                     </label>
                     <input type="no" placeholder="Nomor telepon" class="input input-bordered" required />
                   </div>
-              <button class="btn btn-primary px-8 mt-5">Register</button>
-            </div>
+                  
+<!-- You can open the modal using ID.showModal() method -->
+<button class="btn btn-primary mt-3" onclick="my_modal_4.showModal()">Register</button>
+<dialog id="my_modal_4" class="modal">
+  <div class="modal-box w-11/12 max-w-5xl">
+    <h3 class="font-bold text-lg">Selamat!</h3>
+    <p class="py-4">Registrasi Kamu Berhasil!</p>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>          
+  </div>
           </form>
-        </div>
+        </div>    
+
           </div>
         </div>
       </div>
