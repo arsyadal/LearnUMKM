@@ -23,7 +23,7 @@
             <li><a>News</a></li>
           </ul>
         </div>
-        <a href="dashboard.html">
+        <a href="course.php">
           <img src="umkm logo.png" alt="LearnUMKM" class="btn btn-ghost text-xl text-primary h-10 w-200" />
         </a>
       </div>
@@ -45,7 +45,7 @@
               </label>
               <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
                 <li>
-                  <a href="editprofile.html" class="justify-between"> Profile </a>
+                  <a href="editprofile.php" class="justify-between"> Profile </a>
                 </li>
                 <li><a>Settings</a></li>
                 <li><a>Logout</a></li>
@@ -84,7 +84,7 @@
 
           <p>Click the button to listen on Spotiwhy app.</p>
           <div class="card-actions justify-end">
-            <a href="course.html" class="btn btn-primary">Watch</a>
+            <a href="course.php" class="btn btn-primary">Watch</a>
           </div>
         </div>
       </div>

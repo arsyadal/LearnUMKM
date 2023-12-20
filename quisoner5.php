@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Kuisoner 5</title>
+  </head>
+  <body class="bg-base-200">
+    <!-- navbar -->
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li>
+              <a>Kuisoner UMKM</a>
+            </li>
+          </ul>
+        </div>
+        <a href="dashboard.html">
+          <img src="umkm logo.png" alt="LearnUMKM" class="btn btn-ghost text-xl text-primary h-10 w-200" />
+        </a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="#" class="mr-10">Kuisoner UMKM</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="flex-none gap-2">
+          <div class="flex items-center">
+            <div class="dropdown dropdown-end">
+              <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                <div class="w-10 rounded-full">
+                  <img alt="Tailwind CSS Navbar component" src="sincahn.jpg" />
+                </div>
+              </label>
+              <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                <li>
+                  <a class="justify-between"> Profile </a>
+                </li>
+                <li><a>Settings</a></li>
+                <li><a>Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar end -->
+    <!-- CARD STEP-->
+    <div class="flex items-center justify-center mt-3">
+        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card-body">
+          <ul class="steps">
+            <li class="step step-primary">Manajemen Operasional</li>
+            <li class="step step-primary">Choose plan</li>
+            <li class="step step-primary">Purchase</li>
+            <li class="step step-primary">Receive Product</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD STEP END -->
+    <body>
+    
+            <div class="max-w-4xl mx-auto p-4">
+            <div class="max-md">
+                <div class="card w-full max-w-2xl shadow-2xl bg-base-100 mx-auto">
+                    <form class="card-body">
+    
+                <h1 class="text-center font-bold text-xl mt-2 mb-2">Profil Pengguna</h1>
+    
+                <div class="form-control">
+                  <label class="label">
+                    <span class="label-text">1. Diluar tanah dan bangunan, berapakah nilai aset atau harta usaha saudara?</span>
+                  </label>
+                  <div class="rating gap-2 justify-center">
+                    <input type="radio" name="rating-1" class="mask mask-circle w-14 h-14" />
+                    <input type="radio" name="rating-1" class="mask mask-circle w-12 h-12 mt-1 mb-1"  />
+                    <input type="radio" name="rating-1" class="mask mask-circle w-10 h-10 mt-2 mb-2" />
+                    <input type="radio" name="rating-1" class="mask mask-circle w-8 h-8 mt-3 mb-3" />
+                    <input type="radio" name="rating-1" class="mask mask-circle mt-4 mb-4" />
+                    <input type="radio" name="rating-1" class="mask mask-circle w-8 h-8 mt-3 mb-3" />
+                    <input type="radio" name="rating-1" class="mask mask-circle w-10 h-10 mt-2 mb-2" />
+                    <input type="radio" name="rating-1" class="mask mask-circle w-12 h-12 mt-1 mb-1"  />
+                    <input type="radio" name="rating-1" class="mask mask-circle w-14 h-14" />
+                  </div>
+                </div>
+                <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">1. Diluar tanah dan bangunan, berapakah nilai aset atau harta usaha saudara?</span>
+                    </label>
+                    <div class="rating gap-2 justify-center">
+                        <input type="radio" name="rating-2" class="mask mask-circle w-14 h-14" />
+                        <input type="radio" name="rating-2" class="mask mask-circle w-12 h-12 mt-1 mb-1"  />
+                        <input type="radio" name="rating-2" class="mask mask-circle w-10 h-10 mt-2 mb-2" />
+                        <input type="radio" name="rating-2" class="mask mask-circle w-8 h-8 mt-3 mb-3" />
+                        <input type="radio" name="rating-2" class="mask mask-circle mt-4 mb-4" />
+                        <input type="radio" name="rating-2" class="mask mask-circle w-8 h-8 mt-3 mb-3" />
+                        <input type="radio" name="rating-2" class="mask mask-circle w-10 h-10 mt-2 mb-2" />
+                        <input type="radio" name="rating-2" class="mask mask-circle w-12 h-12 mt-1 mb-1"  />
+                        <input type="radio" name="rating-2" class="mask mask-circle w-14 h-14" />
+                      </div>
+                    </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">1. Diluar tanah dan bangunan, berapakah nilai aset atau harta usaha saudara?</span>
+                    </label>
+                    <div class="rating gap-4 justify-center">
+                        <input type="radio" name="rating-3" class="mask mask-circle w-14 h-14" />
+                        <input type="radio" name="rating-3" class="mask mask-circle w-12 h-12 mt-1 mb-1"  />
+                        <input type="radio" name="rating-3" class="mask mask-circle w-10 h-10 mt-2 mb-2" />
+                        <input type="radio" name="rating-3" class="mask mask-circle w-8 h-8 mt-3 mb-3" />
+                        <input type="radio" name="rating-3" class="mask mask-circle mt-4 mb-4" />
+                        <input type="radio" name="rating-3" class="mask mask-circle w-8 h-8 mt-3 mb-3" />
+                        <input type="radio" name="rating-3" class="mask mask-circle w-10 h-10 mt-2 mb-2" />
+                        <input type="radio" name="rating-3" class="mask mask-circle w-12 h-12 mt-1 mb-1"  />
+                        <input type="radio" name="rating-3" class="mask mask-circle w-14 h-14" />
+                    </div>
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">1. Diluar tanah dan bangunan, berapakah nilai aset atau harta usaha saudara?</span>
+                    </label>
+                    <div class="rating gap-4 justify-center">
+                        <input type="radio" name="rating-4" class="mask mask-circle w-14 h-14" />
+                        <input type="radio" name="rating-4" class="mask mask-circle w-12 h-12 mt-1 mb-1"  />
+                        <input type="radio" name="rating-4" class="mask mask-circle w-10 h-10 mt-2 mb-2" />
+                        <input type="radio" name="rating-4" class="mask mask-circle w-8 h-8 mt-3 mb-3" />
+                        <input type="radio" name="rating-4" class="mask mask-circle mt-4 mb-4" />
+                        <input type="radio" name="rating-4" class="mask mask-circle w-8 h-8 mt-3 mb-3" />
+                        <input type="radio" name="rating-4" class="mask mask-circle w-10 h-10 mt-2 mb-2" />
+                        <input type="radio" name="rating-4" class="mask mask-circle w-12 h-12 mt-1 mb-1"  />
+                        <input type="radio" name="rating-4" class="mask mask-circle w-14 h-14" />
+                    </div>
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">1. Diluar tanah dan bangunan, berapakah nilai aset atau harta usaha saudara?</span>
+                    </label>
+                    <div class="rating gap-4 justify-center">
+                        <input type="radio" name="rating-5" class="mask mask-circle w-14 h-14" />
+                        <input type="radio" name="rating-5" class="mask mask-circle w-12 h-12 mt-1 mb-1"  />
+                        <input type="radio" name="rating-5" class="mask mask-circle w-10 h-10 mt-2 mb-2" />
+                        <input type="radio" name="rating-5" class="mask mask-circle w-8 h-8 mt-3 mb-3" />
+                        <input type="radio" name="rating-5" class="mask mask-circle mt-4 mb-4" />
+                        <input type="radio" name="rating-5" class="mask mask-circle w-8 h-8 mt-3 mb-3" />
+                        <input type="radio" name="rating-5" class="mask mask-circle w-10 h-10 mt-2 mb-2" />
+                        <input type="radio" name="rating-5" class="mask mask-circle w-12 h-12 mt-1 mb-1"  />
+                        <input type="radio" name="rating-5" class="mask mask-circle w-14 h-14" />
+                    </div>
+                  </div>
+                  <div class="flex justify-center">
+
+
+                  <!-- You can open the modal using ID.showModal() method -->
+                  <button class="btn" onclick="my_modal_2.showModal()">Simpan</button>
+<a href="user.php" class="btn btn-primary ml-5">Lanjutkan</a>
+ 
+<dialog id="my_modal_2" class="modal">
+  <div class="modal-box">
+    <h3 class="font-bold text-lg">Selamat! Kamu telah terdaftar, lanjutkan ke proses selanjutnya</h3>
+    <p class="py-4">Press ESC key or click outside to close</p>
+  </div>
+  <form method="dialog" class="modal-backdrop">
+    <button>close</button>
+  </form>
+</dialog>
+                </div>
+              
+
+                
+    <script>
+      // JavaScript to handle the modal
+      var modal = document.getElementById('my_modal_2');
+
+      function showModal() {
+          modal.showModal(); // Open the modal
+      }
+
+      function closeModal() {
+          modal.close(); // Close the modal
+      }
+
+      // Close modal when clicking outside of it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              closeModal();
+          }
+      }
+  </script>
+
+
+  </body>
+</html>

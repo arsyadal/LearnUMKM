@@ -1,0 +1,20 @@
+/* Tambahkan CSS sesuai kebutuhan Anda */
+.modal-box {
+  /* Atur tata letak modal-box sesuai kebutuhan Anda */
+}
+
+.card {
+  /* Atur tata letak card sesuai kebutuhan Anda */
+}
+
+.card-body {
+  display: flex; /* Mengaktifkan tampilan fleksibel untuk card-body */
+  align-items: center; /* Mengatur konten vertikal tengah */
+  justify-content: space-between; /* Mengatur jarak antara gambar dan tombol Buy Now */
+}
+
+.card-title {
+  /* Atur gaya judul sesuai kebutuhan Anda */
+}
+
+/* Sesuaikan gaya lainnya sesuai kebutuhan Anda */

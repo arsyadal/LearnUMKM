@@ -23,14 +23,14 @@
             <li><a>News</a></li>
           </ul>
         </div>
-        <a href="dashboard.html">
+        <a href="course.php">
           <img src="umkm logo.png" alt="LearnUMKM" class="btn btn-ghost text-xl text-primary h-10 w-200" />
         </a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
           <li><a href="#" class="mr-10">Home</a></li>
-          <li><a href="#" class="mr-10">Course</a></li>
+          <li><a href="course.php" class="mr-10">Course</a></li>
           <li><a href="#course" class="mr-10">News</a></li>
         </ul>
       </div>
@@ -60,9 +60,8 @@
     <!-- breadcrumbs -->
     <div class="text-sm breadcrumbs ml-16">
       <ul>
-        <li><a>Home</a></li>
-        <li><a>Go Modern</a></li>
-        <li>Course</li>
+        <li><a class="course.php">Home</a></li>
+        <li><a href="course.php">Course</a></li>
         <li class="link link-primary">Video</li>
 
       </ul>
@@ -71,8 +70,8 @@
 
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
       <div class="h-full rounded-lg bg-gray-200 lg:col-span-2">
-        <h1 class="font-bold text-3xl">Lorem ipsum</h1>
-        <h1 class="font-bold text-2xl">Lorem ipsum</h1>
+        <h1 class="font-bold text-3xl ml-16">Lorem ipsum</h1>
+        <h1 class="font-bold text-2xl ml-16">Lorem ipsum</h1>
 
 
         <br>

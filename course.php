@@ -23,7 +23,9 @@
             <li><a>News</a></li>
           </ul>
         </div>
-        <img src="umkm logo.png" alt="LearnUMKM" class="btn btn-ghost text-xl text-primary h-10 w-200" />
+        <a href="dashboard.php">
+          <img src="umkm logo.png" alt="LearnUMKM" class="btn btn-ghost text-xl text-primary h-10 w-200" />
+        </a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
@@ -43,7 +45,7 @@
               </label>
               <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
                 <li>
-                  <a class="justify-between"> Profile </a>
+                  <a href="editprofile.php" class="justify-between"> Profile </a>
                 </li>
                 <li><a>Settings</a></li>
                 <li><a>Logout</a></li>
@@ -120,11 +122,11 @@
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-presentation-analytics" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 12v-4" /><path d="M15 12v-2" /><path d="M12 12v-1" /><path d="M3 4h18" /><path d="M4 4v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-10" /><path d="M12 16v4" /><path d="M9 20h6" /></svg>
           </div>
           
-          <p class="ml-2">Presentation Materi - Modul 1</p>
+          <a href="#" class="ml-2">Presentation Materi - Modul 1</a>
           <div class="form-control flex items-center justify-end">
 
             <div class="flex items-center justify-">
-              <label class="label cursor-pointer gap-6 ">
+              <label class="label cursor-pointer gap-6 ml-5 ">
                 <input type="checkbox" check="check" class="checkbox" />
               </label>
             </div>
@@ -137,9 +139,9 @@
           <div class="rounded-full h-8 w-8 bg-base-200 flex items-center justify-center">
             <!-- Icon di sini -->
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-invoice" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" /><path d="M9 7l1 0" /><path d="M9 13l6 0" /><path d="M13 17l2 0" /></svg>          </div>
-          <p class="ml-2"> Materi - Modul 1</p>
+          <a href="#" class="ml-2"> Materi - Modul 1</a>
           <div class="form-control">
-            <label class="label cursor-pointer gap-6">
+            <label class="label cursor-pointer gap-6 ml-28">
               <input type="checkbox" check="check" class="checkbox" />
             </label>
           </div>
@@ -153,10 +155,10 @@
             <!-- Icon di sini -->
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notes" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" /><path d="M9 7l6 0" /><path d="M9 11l6 0" /><path d="M9 15l4 0" /></svg>
           </div>
-          <p class="ml-2">        Post Test - Modul 1 
-          </p>
+          <a href="" class="ml-2">        Post Test - Modul 1 
+          </a>
           <div class="form-control">
-            <label class="label cursor-pointer gap-6">
+            <label class="label cursor-pointer gap-6 ml-24">
               <input type="checkbox" check="check" class="checkbox" />
             </label>
           </div>
@@ -168,9 +170,9 @@
             <!-- Icon di sini -->
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-video" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z" /><path d="M3 6m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" /></svg>
           </div>
-          <p class="ml-2">Video - Modul 1</p>
+          <a href="videocourse.php" class="ml-2">Video - Modul 1</a>
           <div class="form-control">
-            <label class="label cursor-pointer gap-6">
+            <label class="label cursor-pointer gap-6 ml-28">
               <input type="checkbox" check="check" class="checkbox" />
             </label>
           </div>
